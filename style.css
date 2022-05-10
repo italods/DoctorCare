@@ -1,26 +1,56 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
 :root{
   /* Transformando: 1rem = 10px; */
   font-size: 62.5%; 
 
   /* COLORS */
   --primary-color: hsl(170, 100%, 26%);
-  --secondary-color: hsl(210, 11%, 15%);
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
 }
 
 body{
   font-family: 'DM Sans';
   font-size: 1.6rem;
+
+  text-align: center;
 }
 
-h1{
-  font-size: 3.4rem;
+header{
+  width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 2rem;
+
 }
 
 h4{
   font-size: 1.4rem;
+  margin-bottom: 1.6rem;
   color: var(--primary-color)
+}
+
+h1{
+  font-size: 3.4rem;
+  color: var(--headline);
+  line-height: 130%;
+  margin-bottom: 2.4rem;
 }
 
 p{
   font-size: 1.8rem;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--paragraph);
+}
+
+button{
+  background: var(--primary-color);
+  border: none;
+  border-radius: 0.8rem;
+
+  display: block;
 }
