@@ -1,0 +1,26 @@
+:root{
+  /* Transformando: 1rem = 10px; */
+  font-size: 62.5%; 
+
+  /* COLORS */
+  --primary-color: hsl(170, 100%, 26%);
+  --secondary-color: hsl(210, 11%, 15%);
+}
+
+body{
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+}
+
+h1{
+  font-size: 3.4rem;
+}
+
+h4{
+  font-size: 1.4rem;
+  color: var(--primary-color)
+}
+
+p{
+  font-size: 1.8rem;
+}
